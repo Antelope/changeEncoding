@@ -4,8 +4,8 @@ const fs = require('fs');
 const iconvLite = require('iconv-lite');
 
 //全局
-const   entry = './script',
-        dist = './script/utf8',
+const   entry = './script', //入口文件夹
+        dist = './script/utf8', //输出文件夹
         from_code = 'GBK',
         target_code = 'UTF8';
 
